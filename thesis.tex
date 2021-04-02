@@ -1,0 +1,95 @@
+%
+% You can use this file as a template for your thesis.
+%
+% Directory structure:
+% PPGCosmoThesis requires two subfolders: "figures" and "sections".
+%
+% All the figures should be inserted in the folder "figures".
+%
+% The files abstract.tex, resumo.tex and acknowledgements.tex must be 
+% in the folder "sections".
+%
+% By Davi Rodrigues. September, 2020.
+%
+
+\documentclass{PPGCosmoThesis}
+% After the thesis' defense approval, use the option "approved". 
+ 
+%%%%%%%%%%%%%%%%%%%%% ADDITIONAL PACKAGES %%%%%%%%%%%%%%%%%%%%%%%%%%
+% PPGCosmoThesis already uses the following packages: 
+% amsmath, amssymb, hyperref, graphicx, xcolor, scrlayer-scrpage and xparse
+% If you need additional packages, put them here.
+
+
+
+
+%%%%%%%%%%%%%%%%%% USER DEFINITIONS AND OTHER OPTIONS %%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{PPGCosmoN} 
+% PPGCosmoN is recommended. 
+% Other options include unsrturl, abbrvurl, apacite (requires \usepackage{apacite})...
+
+\includeonly{
+	sections/chapter1,
+	sections/chapter2,
+	sections/chapter3,
+	sections/appendix1,
+	sections/appendix2
+	}
+% \includeonly speeds up the typesettings after the first complete one.
+% If the speed is not a concern, you can remove it.
+% If \includeonly is used, all the chapter file names must be inserted. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%% BEGIN DOCUMENT %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\title{Quantum effects in cosmology}
+\author{Emmanuel Frion}
+\thesisyear{2020}
+\supervisor{Prof.~Nelson Pinto-Neto}
+\supervisoraddress{Cosmo, Centro Brasileiro de Pesquisas Físicas (Brazil)}
+\cosupervisor{Prof.~David Wands}
+\cosupervisoraddress{ICG, University of Portsmouth (UK)}
+
+\dedicatory{0} 
+% The value of 0 does not print the dedicatory page. 
+% Here is an example: \dedicatory{To whoever made this wonderful thesis template.}
+% If needed, use \\ to break lines.
+
+
+%\banca{
+%	Prof. Dr. Nelson Pinto-Neto (CBPF), orientador,\\ 
+%	Prof. Dr. David Wands (Portsmouth U., Inglaterra), co-orientador, \\  
+%	Prof. Dr. Jaílson Souza de Alcaniz (ON), examinador externo,\\
+%	Prof. Dr. Patrick Peter (IAP, França), examinador externo, \\
+%	Prof. Dr. Santiago Esteban Perez Berliaffa (UERJ), examinador externo,\\
+%	Prof. Dr. Davi Cabral Rodrigues (UFES), examinador interno, \\
+%	Prof. Dr. Júlio César Fabris (UFES), examinador interno.
+%	}
+%
+% The \banca content only appears if the option "approved" is used.
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%% THE CHAPTERS %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{sections/chapter1}
+\include{sections/chapter2}
+\include{sections/chapter3}
+\appendix
+\include{sections/appendix1}
+\include{sections/appendix2}
+% ATTENTION: check if the file names match those in the \includeonly command.
+% All the files must be saved with ".tex", but inside \include the extensions are omitted.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%% BIBLIOGRAPHY %%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagebreak
+\pagestyle{biblioHeader}
+{
+	\hypersetup{urlcolor=darkblue} 
+	\bibliography{BibExample.bib}  % put the name of your bib file here.
+}
+
+\end{document}
