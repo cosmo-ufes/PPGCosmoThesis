@@ -1,5 +1,4 @@
 # PPGCosmoThesis
-PPGCosmo/UFES thesis model.
 
 This is the current standard thesis model for [PPGCosmo](https://ppgcosmo.cosmo-ufes.org), which is the international PhD program on Astrophysics, Cosmology and Gravitation  at the Federal University of Espirito Santo [UFES](https://www.ufes.br).
 
