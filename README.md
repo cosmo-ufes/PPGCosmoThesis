@@ -1,4 +1,6 @@
 # PPGCosmoThesis
+[![DOI](https://zenodo.org/badge/354127172.svg)](https://zenodo.org/badge/latestdoi/354127172)
+
 
 This is the current standard thesis model for [PPGCosmo](https://ppgcosmo.cosmo-ufes.org), which is the international PhD program on Astrophysics, Cosmology and Gravitation  at the Federal University of Espirito Santo [UFES](https://www.ufes.br).
 
