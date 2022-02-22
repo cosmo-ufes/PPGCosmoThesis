@@ -13,3 +13,5 @@ The PPGCosmoThesis class is based on the document class _scrbook_ from the [_Kom
 Some of the data present in the example thesis.tex come for the first PPGCosmo defense. The complete thesis you can find [here](https://ppgcosmo.cosmo-ufes.org/emmanuel-frion.html).
 
 In case of issues, let us know.
+
+x
