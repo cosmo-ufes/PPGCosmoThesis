@@ -4,7 +4,7 @@
 
 This is the current thesis model for [PPGCosmo](https://ppgcosmo.cosmo-ufes.org) / [UFES](https://www.ufes.br), Brazil. The `PPGCosmoThesis` class is based on the document class `scrbook` from the [_Koma Script_](https://ctan.org/pkg/koma-script).
 
-Please download and typeset these files as they are, it is expected to work. If everything goes right, adapt the files as needed.
+We suggest that you first download and typeset these files as they are, it is expected to work. If everything goes right, adapt the files as needed.
 
 Part of the data in the example `thesis.tex` comes from the first PPGCosmo defence. The complete first thesis you can find [here](https://ppgcosmo.cosmo-ufes.org/emmanuel-frion.html).
 
